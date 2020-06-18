@@ -32,6 +32,7 @@ export default {
     },
     methods: {
         addCart(item) {
+            // 将选中的货物添加到购物车state.cart里
             this.$store.commit('addCart', item);
         }
     }
